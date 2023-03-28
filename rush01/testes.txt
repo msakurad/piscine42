@@ -1,0 +1,31 @@
+
+Para compilar o programa:
+
+cc -Wall -Wextra -Werror main.c -L. -lname -o rush-01
+cc -Wall -Wextra -Werror *.c -o rush-01
+
+Com soluções
+./rush-01 "4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2" | cat -e
+./rush-01 "2 3 2 1 3 2 1 3 3 1 2 3 3 2 1 3" | cat -e
+./rush-01 "2 2 1 3 3 2 2 1 3 1 2 4 2 2 2 1" | cat -e
+
+Teste Cols
+./rush-01 "4 2 3 2 1 1 4 2 3 2 2 1 2 3 1 2" | cat -e
+
+Error - vazio
+./rush-01 "" | cat -e
+
+Error - faltando
+./rush-01 "1 3 1 2 4 " | cat -e
+
+Error - dois espaços entre os números
+./rush-01 "4  2 1 2 1 2 4 2 3 2 2 1 2 3 1  2" | cat -e
+
+Error - só 1 número
+./rush-01 "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" | cat -e
+
+Error - Sem solução
+./rush-01 "3 1 4 2 1 4 3 2 4 3 2 1 1 2 3 4" | cat -e
+
+Error - Números diferentes de 1,2,3 e 4
+./rush-01 "1 1 1 1 1 1 1 5 3 1 1 1 7 1 9 1" | cat -e
