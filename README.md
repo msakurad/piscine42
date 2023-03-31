@@ -4,12 +4,12 @@ In this repository, you will find all the lists of exercises I've made during th
 
 ### About the experience
 I won't have enough words to express what is to be in the Piscine, but I have a word for it: Opportunity.
-École 42 gave me the opportunity to change my status quo. I had once again the courage to try again something very challenging, but in a safe space built in the community of 42.
+École 42 gave me the opportunity to change my status quo. I had once again the courage to try something very challenging, but in a safe space built in the community of 42.
 
 Worth every minute there~
 
 ### My achievements
-I've made until the C05 list of exercises (skipped the Shel01 list).
+I've made until the C05 list of exercises (skipped the Shell01 list).
 
 My last exam's score was 72/100. It was my best grade of all exams!
 And finished the Piscine with level 06.
